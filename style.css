@@ -64,19 +64,55 @@ p{
 .Menu{
   list-style: none;
   font-family: sans-serif;
-  position: absolute;
-  top: 10px;
-  right: 30px;
-  z-index: 10px;
+  position: fixed;
+  top: 0px;
+  z-index: 10;
   cursor: pointer;
+  width: 100%;
+  background-color: lightcoral;
+  margin-top: 0;
 }
 .Links{
-  float: left;
   color:blue;
-  padding:5px 9px;
   font-family: fantasy;
   font-size: 20px;
+  display: inline;
+  padding-left: 33px;
+  padding-right: 25px;
 }
 .Links:hover{
-  background-color: coral; 
+  background-color:lawngreen; 
+  font-size: 25px;
+  color: aliceblue;
+
+}
+#Videos{
+  text-align: center;
+}
+#Work{
+  text-align: center;
+}
+#Writings{
+  text-align: center;
+}
+.Article{
+  font-size: 30px;
+  text-decoration: none;
+}
+html{
+  scroll-behavior: smooth;
+}
+#Contact {
+  text-align: center;
+ background-color: indianred ;
+}
+#Contact h3{
+  display: inline;
+}
+body{
+  text-align: center;
+}
+.Menu a{
+  text-decoration: none;
+  text-shadow: 2px 2px black;
 }
